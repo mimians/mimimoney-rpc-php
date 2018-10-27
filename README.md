@@ -1,7 +1,8 @@
 
-# TurtleCoin RPC PHP
+# MIMI Money RPC PHP
 
-TurtleCoin RPC PHP is a PHP wrapper for the TurtleCoin JSON-RPC interfaces.
+MIMI Money RPC PHP is a PHP wrapper for the MIMI Money JSON-RPC interfaces.
+Forked from Turtlecoin
 
 ---
 
@@ -77,7 +78,7 @@ $response->getBody();
 
 ## Docs
 
-Documentation of the TurtleCoin RPC API and more PHP examples for this package can be found at [api-docs.turtlecoin.lol](https://api-docs.turtlecoin.lol).
+Documentation at [api-docs.turtlecoin.lol](https://api-docs.turtlecoin.lol).
 
 ## License
 
