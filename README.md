@@ -6,14 +6,14 @@ Forked from Turtlecoin
 
 ---
 
-1) [Install TurtleCoin RPC PHP](#install-turtlecoin-rpc-php)
+1) [Install RPC PHP](#install)
 1) [Examples](#examples)
 1) [Docs](#docs)
 1) [License](#license)
 
 ---
 
-## Install TurtleCoin RPC PHP
+## Install MIMI Money RPC PHP
 
 This package requires PHP >=7.1.3. Require this package with composer:
 
