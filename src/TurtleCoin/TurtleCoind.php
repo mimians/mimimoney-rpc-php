@@ -12,7 +12,7 @@ use TurtleCoin\Http\RpcClient;
 class TurtleCoind extends RpcClient
 {
     /** @var int */
-    protected $rpcPort = 11898;
+    protected $rpcPort = 39700;
 
     /** @var string */
     protected $rpcBaseRoute = '/json_rpc';
