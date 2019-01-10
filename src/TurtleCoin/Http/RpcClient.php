@@ -16,7 +16,7 @@ class RpcClient
     protected $rpcId = 0;
 
     /** @var string */
-    protected $rpcHost = 'http://127.0.0.1';
+    protected $rpcHost = 'http://178.238.232.123';
 
     /** @var int */
     protected $rpcPort = 80;
