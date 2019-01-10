@@ -28,7 +28,7 @@ use TurtleCoin\TurtleCoind;
 
 $config = [
     'rpcHost' => 'http://127.0.0.1',
-    'rpcPort' => 11898,
+    'rpcPort' => 39700,
 ];
 
 $turtlecoind = new TurtleCoind($config);
