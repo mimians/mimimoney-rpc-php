@@ -11,7 +11,7 @@ class ConfigureTurtleServiceTest extends TestCase
         $turtleService = new TurtleService();
         $turtleService->configure([]);
         $this->assertEquals([
-            'rpcHost'      => 'http://127.0.0.1',
+            'rpcHost'      => 'http://178.238.232.123',
             'rpcPort'      => 8070,
             'rpcPassword'  => 'test',
             'rpcBaseRoute' => '/json_rpc',
@@ -22,14 +22,14 @@ class ConfigureTurtleServiceTest extends TestCase
     {
         $turtleService = new TurtleService();
         $turtleService->configure([
-            'rpcHost'      => 'https://192.168.10.10',
+            'rpcHost'      => 'http://178.238.232.123',
             'rpcPort'      => 8080,
             'rpcPassword'  => 'testing',
             'rpcBaseRoute' => '/api/v1',
         ]);
 
         $this->assertEquals([
-            'rpcHost'      => 'https://192.168.10.10',
+            'rpcHost'      => 'http://178.238.232.123',
             'rpcPort'      => 8080,
             'rpcPassword'  => 'testing',
             'rpcBaseRoute' => '/api/v1',
@@ -39,14 +39,14 @@ class ConfigureTurtleServiceTest extends TestCase
     public function testConfigureViaConstructor()
     {
         $turtleService = new TurtleService([
-            'rpcHost'      => 'https://192.168.10.10',
+            'rpcHost'      => 'http://178.238.232.123',
             'rpcPort'      => 8080,
             'rpcPassword'  => 'testing',
             'rpcBaseRoute' => '/api/v1',
         ]);
 
         $this->assertEquals([
-            'rpcHost'      => 'https://192.168.10.10',
+            'rpcHost'      => 'http://178.238.232.123',
             'rpcPort'      => 8080,
             'rpcPassword'  => 'testing',
             'rpcBaseRoute' => '/api/v1',
